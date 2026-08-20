@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity 3: Recipe Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #c7955a;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .header {
+            font-family: Arial;
+            background-color: #d0ac81;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content {
+            background-color: #decaab;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 5px solid black;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #e5bda5;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body class="body">
+
+    <div class="header">
+        <header>
+            <h1>Sinigang</h1>
+            <p>Classic soup of the philippines</p>
+        </header>
+    </div>
+
+    <div class="content">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFyGHK7sLiZ2pza2AxRimDxVpxgRqGYNkYyCj7f7_tpuHeuZpi0yuERU5SB3f2UU_peUS63eSky125nHOWPqfXtwR1fhRllNQjsdHNPAk&s=10">
+
+    </div>
+
+    <h1>Facts about sinigang:</h1>
+
+    <div class="content">
+        <ul>
+
+            <li>
+                Sinigang is a popular Filipino soup known for its sour and savory taste.
+            </li>
+
+            <li>
+                It is usually made with tamarind, which gives the soup its sour flavor.
+            </li>
+
+            <li>
+                Common meats used are pork, beef, shrimp, fish, or chicken.
+            </li>
+
+        </ul>
+    </div>
+
+    <h1>Sinigang recipe:</h1>
+
+    <div class="content">
+
+        <h2>Ingridients:</h2>
+
+        <ul>
+            <li>1 kg pork belly (or pork ribs)</li>
+            <li>6 cups water</li>
+            <li>1 onion, sliced</li>
+            <li>2 tomatoes, quartered</li>
+            <li>1 packet sinigang mix (or fresh tamarind)</li>
+            <li>1 radish, sliced</li>
+            <li>1 eggplant, sliced</li>
+            <li>10 pieces string bean</li>
+            <li>2 cups kangkong (water spinach)</li>
+            <li>2 tablespoons fish sauce</li>
+            <li>Salt and pepper to taste</li>
+        </ul>
+
+    </div>
+
+    <div class="content">
+
+        <h2>Instructions:</h2>
+
+        <ol>
+            <li>Boil water in a large pot.</li>
+            <li>Add the pork and cook until it becomes tender.</li>
+            <li>Add the onion and tomatoes, then let it simmer.</li>
+            <li>Add the radish, eggplant, and string beans.</li>
+            <li>Mix in the sinigang seasoning or tamarind extract.</li>
+            <li>Season with fish sauce, salt, and pepper.</li>
+            <li>Add the kangkong and green chili peppers.</li>
+            <li>Cook for a few more minutes until the vegetables are done.</li>
+            <li>Serve hot with steamed rice.</li>
+        </ol>
+
+    </div>
+
+    <footer>
+
+        <div class="footer">
+
+            <h2>For More Information Contact us:</h2>
+
+            <p>Contact#:092738273</p>
+
+            <p>
+                Gmail:hahahaha.gmail
+                Com
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
