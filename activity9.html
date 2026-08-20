@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+   <form action="save.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name</label><br>
+                <input type="text" name="fname"required><br>
+                <label>Middle Name</label><br>
+                <input type="text" name="mname"required><br>              <label>Last Name</label><br>
+                <input type="text" name="lname"required><br><br>
+                                <label>Email Address</label><br>
+                <input type="email" name="email"required><br>
+                <label>Password</label><br>
+                <input type="password" name="pass"required minlength="6" maxlength="9"><br><br>             <label>Age</label><br>
+                <input type="number" name="age"required><br>
+                <label>Birthday</label><br>
+                <input type="date" name="date"required><br><br>
+                                <label>Contact Number</label><br>
+                <input type="Number" name="cnumber"required><br><br>
+            </fieldset>
+            <br><br><br><br>
+            <fieldset>
+              <legend>Student Impormation</legend>
+               <label>Student ID</label><br>
+                <input type="Number" name="StuID"required><br>
+                <select>
+                  <option>Select Grade Level</option>
+                  <option>Grade 1</option>
+              <option>Grade 2</option>
+              <option>Grade 3</option>
+                <option>Grade 4</option>
+                <option>Grade 5</option>
+                <option>Grade 6</option>
+              <option>Grade 7</option> 
+              <option>Grade 8</option>
+              <option>Grade 9</option>
+              <option>Grade 10</option>
+                <option>Grade 11</option>
+                <option>Grade 12</option>
+                </select>
+                <select>
+                  <option>Strands</option>
+                  <option>ENG</option>
+              <option>CPT</option>
+              <option>CAH</option>
+                <option>SS</option>
+                <option>FBS</option>
+                <option>HTM</option>
+                </select>
+              
+              
+            </fieldset><br><br>
+            <fieldset>
+              <legend>Additional Information</legend>
+              <label>Gender</label><br>
+              <label>Male</label>
+              <input type="radio"name="Male">
+              <label>Female</label>
+              <input type="radio"name="Fmale">
+              <label>Prefer not to say</label>
+              <input type="radio"name="prefer"><br><br>
+              <label>Hobbies</label><br>
+              <label>Reading</label>
+              <input type="checkbox"name="Read">
+              <label>Coding</label>
+              <input type="checkbox"name ="Read">
+              <label>Playing Sports</label>
+              <input type="checkbox"name="psports">
+              <label>Watching movies</label>
+              <input type="checkbox"name="wmovies">
+              <label>Playing Games</label>
+              <input type="checkbox"name="pgames">
+              <label>Music</label>
+              <input type="checkbox"name="music">
+              <br><br>
+              <label>Compelete Address</label>
+              <textarea cols="40" rows="24" maxlength="250"required></textarea>
+              </fieldset>
+            
+             <button type="submit">Submit</button>
+             <button type="reset">Reset</button>
+        </form>
+  
+  
+</body>
+
+</html>
