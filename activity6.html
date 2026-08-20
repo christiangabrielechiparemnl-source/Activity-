@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+    <style>
+        .table{
+            border-collapse:collapse;
+            text-align:center;
+            }
+        .three{
+        position:absolute ;
+        left:70px ;
+        }
+        .eight{
+            
+        position:absolute ;
+        left:130px ;
+        }
+        .ten{
+            position:absolute ;
+        left:180px ;
+        }
+        .fourteen{
+            position:absolute ;
+        left:230px ;
+        }
+        .nineteen{
+            position:absolute ;
+        left:285px ;
+        }
+        .thirtysix{
+                position:absolute ;
+        left:340px ;
+        }
+            
+        
+        
+    </style>
+    <body>
+    <h1>Act:6 Cpu Scheduling</h1>
+    <table border="1" width="100%" class="table">
+        <tr>
+            <th>Process</th>
+            <th>AT</th>
+            <th>BT</th>
+            <th>CT</th>
+            <th>TAT</th>
+            <th>WT</th>
+        </tr>
+        <tr>
+            <td><strong>P1</strong></td>
+            <td>3</td>
+            <td>5</td>
+            <td>8</td>
+            <td>5</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td><strong>P2</strong></td>
+            <td>4(8)</td>
+            <td>2</td>
+            <td>10</td>
+            <td>6</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td><strong>P3</strong></td>
+            <td>6(10)</td>
+            <td>4</td>
+            <td>14</td>
+            <td>8</td>
+            <td>4</td>
+        </tr>
+        <tr>
+                <td><strong>P4</strong></td>
+            <td>16</td>
+            <td>3</td>
+            <td>19</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td><strong>P5</strong></td>
+            <td>7(19)</td>
+            <td>5</td>
+            <td>8</td>
+            <td>5</td>
+            <td>0</td>
+        </tr>
+            
+    </table>
+    <h4>TAT=10.2</h4>
+    <h4>WT=12</h4>
+    <br><br>
+    <table border="1" Width="100%" class="table">
+    <tr>
+        <th>Idle</th>
+        <th><strong>P1</strong></th>
+        <th><strong>P2</strong></th>
+        <th><strong>P3</strong></th>
+        <th><strong>P5</strong></th>
+        <th><strong>P4</strong></th>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>0</td>
+            <td class="three">3</td>
+            <td class="eight">8</td>
+            <td class="ten">10</td>
+            <td class="fourteen">14</td>
+            <td class="nineteen">19</td>
+            <td class="thirtysix">36</td>
+        </tr>
+    </table>
+    
+    
+       
+       </div> 
+  
+</body>
+
+</html>
