@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Class Schedule - 11 CPT 1</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f5f5f5;
+        color: #222;
+        padding: 20px;
+    }
+
+    .schedule-container {
+        max-width: 1100px;
+        margin: auto;
+        background: white;
+        padding: 25px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    /* SCHOOL HEADER */
+    .school-header {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .school-logo {
+        width: 75px;
+        height: 75px;
+        object-fit: contain;
+        margin-bottom: 5px;
+    }
+
+    .school-name {
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .address {
+        font-size: 16px;
+        color: #555;
+        margin-top: 6px;
+        line-height: 1.4;
+    }
+
+    .department {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 12px;
+    }
+
+    .schedule-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .semester {
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+
+    /* INFORMATION */
+    .student-info {
+        margin: 25px 0 15px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .student-info strong {
+        font-weight: bold;
+    }
+
+    /* TABLE */
+    .table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        min-width: 850px;
+    }
+
+    th,
+    td {
+        border: 1px solid #888;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th {
+        height: 45px;
+        background: #f4f4f4;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .time {
+        width: 90px;
+        font-size: 13px;
+        color: #555;
+        background: #fafafa;
+    }
+
+    td {
+        height: 70px;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .subject {
+        display: block;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+    .teacher {
+        display: block;
+        color: #666;
+        line-height: 1.25;
+    }
+
+    /* BREAK / EMPTY PERIOD */
+    .empty {
+        background: white;
+    }
+
+    /* HIGHLIGHTED CLASSES */
+    .highlight {
+        background: #f8e8c5;
+    }
+
+    /* FOOTER */
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 13px;
+        color: #777;
+    }
+
+    /* MOBILE */
+    @media (max-width: 700px) {
+
+        body {
+            padding: 5px;
+        }
+
+        .schedule-container {
+            padding: 12px;
+            box-shadow: none;
+        }
+
+        .school-logo {
+            width: 65px;
+            height: 65px;
+        }
+
+        .school-name {
+            font-size: 20px;
+        }
+
+        .address {
+            font-size: 13px;
+        }
+
+        .department,
+        .schedule-title {
+            font-size: 17px;
+        }
+
+        .semester {
+            font-size: 15px;
+        }
+
+        .student-info {
+            font-size: 13px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="schedule-container">
+
+    <!-- SCHOOL HEADER -->
+    <div class="school-header">
+
+        <!-- Replace this with your actual logo -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfkklsbVv7DzrLtFiDX8UdiOSFim4nERy6KQ&s"
+             alt="EAC Logo"
+             class="school-logo">
+
+        <div class="school-name">
+            Emilio Aguinaldo College -<br>
+            Manila
+        </div>
+
+        <div class="address">
+            1113-1117 San Marcelino St., cor. Gonzales St.<br>
+            Paco, Manila
+        </div>
+
+        <div class="department">
+            HIGH SCHOOL DEPARTMENT
+        </div>
+
+        <div class="schedule-title">
+            CLASS SCHEDULE
+        </div>
+
+        <div class="semester">
+            1st Semester SY 2026-2027
+        </div>
+
+    </div>
+
+
+    <!-- STUDENT INFORMATION -->
+    <div class="student-info">
+
+        <strong>GRADE &amp; SECTION:</strong> 11 CPT 1<br>
+
+        <strong>CLASS ADVISER:</strong>
+        Mr. Christian Irvhine C. Concepcion, LPT
+
+    </div>
+
+
+    <!-- SCHEDULE TABLE -->
+    <div class="table-wrapper">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th class="time">TIME</th>
+                    <th>MONDAY</th>
+                    <th>TUESDAY</th>
+                    <th>WEDNESDAY</th>
+                    <th>THURSDAY</th>
+                    <th>FRIDAY</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <!-- 7:30 - 8:30 -->
+                <tr>
+                    <td class="time">
+                        07:30<br>
+                        -<br>
+                        08:30
+                    </td>
+
+                    <td>
+                        <span class="subject">ECUL 1</span>
+                        <span class="teacher">
+                            Concepcion,<br>
+                            Christian Irvhine
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">GM 1</span>
+                        <span class="teacher">
+                            Gumaru,<br>
+                            Renz
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">PXLP 1</span>
+                        <span class="teacher">
+                            Concepcion,<br>
+                            Christian Irvhine
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">CPNT</span>
+                        <span class="teacher">
+                            Cruz, Rogelio
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">GS 1</span>
+                        <span class="teacher">
+                            Ancheta, Cyril
+                        </span>
+                    </td>
+                </tr>
+
+
+                <!-- 8:30 - 9:30 -->
+                <tr>
+                    <td class="time">
+                        08:30<br>
+                        -<br>
+                        09:30
+                    </td>
+
+                    <td>
+                        <span class="subject">LCS 1</span>
+                        <span class="teacher">
+                            Avendialo,Wesley<br>
+                            Vicente
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">CPNT</span>
+                        <span class="teacher">
+                            Cruz,<br>
+                            Rogelio
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">LCS 1</span>
+                        <span class="teacher">
+                            Avendialo,Wesley<br>
+                            Vicente
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">CPNT</span>
+                        <span class="teacher">
+                            Cruz, Rogelio
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">LCS 1</span>
+                        <span class="teacher">
+                            Avendialo,Wesley<br>
+                            Vicente
+                        </span>
+                    </td>
+                </tr>
+
+
+                <!-- 9:30 - 10:00 -->
+                <tr>
+                    <td class="time">
+                        09:30<br>
+                        -<br>
+                        10:00
+                    </td>
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                </tr>
+
+
+                <!-- 10:00 - 11:00 -->
+                <tr>
+                    <td class="time">
+                        10:00<br>
+                        -<br>
+                        11:00
+                    </td>
+
+                    <td>
+                        <span class="subject">GS 1</span>
+                        <span class="teacher">
+                            Ancheta, Cyril
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">CPNT</span>
+                        <span class="teacher">
+                            Cruz,<br>
+                            Rogelio
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">MK 1</span>
+                        <span class="teacher">
+                            Deladia, Paul<br>
+                            Adrian
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">GM 1</span>
+                        <span class="teacher">
+                            Gumaru, Renz
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">MK 1</span>
+                        <span class="teacher">
+                            Deladia, Paul<br>
+                            Adrian
+                        </span>
+                    </td>
+                </tr>
+
+
+                <!-- 11:00 - 12:00 -->
+                <tr>
+                    <td class="time">
+                        11:00<br>
+                        -<br>
+                        12:00
+                    </td>
+
+                    <td>
+                        <span class="subject">GM 1</span>
+                        <span class="teacher">
+                            Gumaru, Renz
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">PXLP 1</span>
+                        <span class="teacher">
+                            Concepcion,<br>
+                            Christian Irvhine
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">CPNT</span>
+                        <span class="teacher">
+                            Cruz, Rogelio
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">EC 1</span>
+                        <span class="teacher">
+                            Estrada, April<br>
+                            Marie
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">CPNT</span>
+                        <span class="teacher">
+                            Cruz, Rogelio
+                        </span>
+                    </td>
+                </tr>
+
+
+                <!-- 12:00 - 1:00 -->
+                <tr>
+                    <td class="time">
+                        12:00<br>
+                        -<br>
+                        01:00
+                    </td>
+
+                    <td>
+                        <span class="subject">PXLP 1</span>
+                        <span class="teacher">
+                            Concepcion,<br>
+                            Christian Irvhine
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">EC 1</span>
+                        <span class="teacher">
+                            Estrada,<br>
+                            April Marie
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">CPNT</span>
+                        <span class="teacher">
+                            Cruz, Rogelio
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">GS 1</span>
+                        <span class="teacher">
+                            Ancheta, Cyril
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">CPNT</span>
+                        <span class="teacher">
+                            Cruz, Rogelio
+                        </span>
+                    </td>
+                </tr>
+
+
+                <!-- 1:00 - 1:30 -->
+                <tr>
+                    <td class="time">
+                        01:00<br>
+                        -<br>
+                        01:30
+                    </td>
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                </tr>
+
+
+                <!-- 1:30 - 2:30 -->
+                <tr>
+
+                    <td class="time">
+                        01:30<br>
+                        -<br>
+                        02:30
+                    </td>
+
+                    <td class="highlight">
+                        <span class="subject">PXLP 1</span>
+                        <span class="teacher">
+                            Concepcion,<br>
+                            Christian Irvhine
+                        </span>
+                    </td>
+
+                    <td class="empty"></td>
+
+                    <td class="highlight">
+                        <span class="subject">GS 1</span>
+                        <span class="teacher">
+                            Ancheta, Cyril
+                        </span>
+                    </td>
+
+                    <td>
+                        <span class="subject">LCS 1</span>
+                        <span class="teacher">
+                            Avendialo,Wesley<br>
+                            Vicente
+                        </span>
+                    </td>
+
+                    <td class="highlight">
+                        <span class="subject">ECUL 1</span>
+                        <span class="teacher">
+                            Concepcion,<br>
+                            Christian Irvhine
+                        </span>
+                    </td>
+
+                </tr>
+
+
+                <!-- 2:30 - 3:30 -->
+                <tr>
+
+                    <td class="time">
+                        02:30<br>
+                        -<br>
+                        03:30
+                    </td>
+
+                    <td class="empty"></td>
+
+                    <td class="highlight">
+                        <span class="subject">GM 1</span>
+                        <span class="teacher">
+                            Gumaru,<br>
+                            Renz
+                        </span>
+                    </td>
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+                </tr>
+
+
+                <!-- 3:30 - 4:00 -->
+                <tr>
+
+                    <td class="time">
+                        03:30<br>
+                        -<br>
+                        04:00
+                    </td>
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <div class="footer">
+        Class Schedule • 11 CPT 1 • 1st Semester SY 2026–2027
+    </div>
+
+</div>
+
+</body>
+                          </html>
